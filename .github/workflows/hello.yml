@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   greet: null
-  runs-on: ubuntu:latest
-  steps:
-    - name: Say hello to user
-      run: echo "Hello Manas"
+    runs-on: ubuntu:latest
+    steps:
+      - name: Say hello to user
+        run: echo "Hello Manas"
